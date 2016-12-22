@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C624EFF9BC7078CCEF4202 /* libPods-GPUImageBeautify-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B38E7856AC11B21DD251D4C7 /* libPods-GPUImageBeautify-Test.a */; };
+		DCDE61EF1DA893B00038EF29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDE61EE1DA893B00038EF29 /* main.m */; };
+		DCDE61F21DA893B00038EF29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDE61F11DA893B00038EF29 /* AppDelegate.m */; };
+		DCDE61F51DA893B00038EF29 /* FWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDE61F41DA893B00038EF29 /* FWViewController.m */; };
+		DCDE61F81DA893B00038EF29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDE61F61DA893B00038EF29 /* Main.storyboard */; };
+		DCDE61FA1DA893B00038EF29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDE61F91DA893B00038EF29 /* Assets.xcassets */; };
+		DCDE61FD1DA893B00038EF29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDE61FB1DA893B00038EF29 /* LaunchScreen.storyboard */; };
+		DCF2A89A1E0BE469006DDB4E /* libGPUImageBeautify(静态库).a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF2A8991E0BE469006DDB4E /* libGPUImageBeautify(静态库).a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72EEE7BC127E2C57F8778B72 /* Pods-GPUImageBeautify-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageBeautify-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageBeautify-Test/Pods-GPUImageBeautify-Test.release.xcconfig"; sourceTree = "<group>"; };
+		B38E7856AC11B21DD251D4C7 /* libPods-GPUImageBeautify-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUImageBeautify-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDE61EA1DA893B00038EF29 /* GPUImageBeautify(依赖工程).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPUImageBeautify(依赖工程).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDE61EE1DA893B00038EF29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCDE61F01DA893B00038EF29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCDE61F11DA893B00038EF29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCDE61F31DA893B00038EF29 /* FWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWViewController.h; sourceTree = "<group>"; };
+		DCDE61F41DA893B00038EF29 /* FWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWViewController.m; sourceTree = "<group>"; };
+		DCDE61F71DA893B00038EF29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCDE61F91DA893B00038EF29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCDE61FC1DA893B00038EF29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCDE61FE1DA893B00038EF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF2A8821E0BD25D006DDB4E /* libGPUImageBeautify.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGPUImageBeautify.a; path = "../GPUImageBeautify/GPUImageBeautify/build/Debug-iphoneos/libGPUImageBeautify.a"; sourceTree = "<group>"; };
+		DCF2A8971E0BE08C006DDB4E /* libGPUImageBeautify.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGPUImageBeautify.a; path = "../../../Library/Developer/Xcode/DerivedData/GPUImageBeautify-Test-ekncliaiwcneoddduxemkuxhdljc/Build/Products/Debug-iphonesimulator/libGPUImageBeautify.a"; sourceTree = "<group>"; };
+		DCF2A8991E0BE469006DDB4E /* libGPUImageBeautify(静态库).a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libGPUImageBeautify(静态库).a"; path = "../GPUImageBeautify(静态库)/build/Debug-iphoneos/libGPUImageBeautify(静态库).a"; sourceTree = "<group>"; };
+		FB1875ADC7427C68FDC761D2 /* Pods-GPUImageBeautify-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageBeautify-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageBeautify-Test/Pods-GPUImageBeautify-Test.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCDE61E71DA893B00038EF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF2A89A1E0BE469006DDB4E /* libGPUImageBeautify(静态库).a in Frameworks */,
+				09C624EFF9BC7078CCEF4202 /* libPods-GPUImageBeautify-Test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21E20FAACDDB066EC5885E1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCF2A8991E0BE469006DDB4E /* libGPUImageBeautify(静态库).a */,
+				DCF2A8971E0BE08C006DDB4E /* libGPUImageBeautify.a */,
+				DCF2A8821E0BD25D006DDB4E /* libGPUImageBeautify.a */,
+				B38E7856AC11B21DD251D4C7 /* libPods-GPUImageBeautify-Test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73A13E9F366CC30E963C4A51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB1875ADC7427C68FDC761D2 /* Pods-GPUImageBeautify-Test.debug.xcconfig */,
+				72EEE7BC127E2C57F8778B72 /* Pods-GPUImageBeautify-Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCDE61E11DA893B00038EF29 = {
+			isa = PBXGroup;
+			children = (
+				DCDE61EC1DA893B00038EF29 /* GPUImageBeautify-Test */,
+				DCDE61EB1DA893B00038EF29 /* Products */,
+				73A13E9F366CC30E963C4A51 /* Pods */,
+				21E20FAACDDB066EC5885E1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCDE61EB1DA893B00038EF29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE61EA1DA893B00038EF29 /* GPUImageBeautify(依赖工程).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCDE61EC1DA893B00038EF29 /* GPUImageBeautify-Test */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE61F01DA893B00038EF29 /* AppDelegate.h */,
+				DCDE61F11DA893B00038EF29 /* AppDelegate.m */,
+				DCDE61F31DA893B00038EF29 /* FWViewController.h */,
+				DCDE61F41DA893B00038EF29 /* FWViewController.m */,
+				DCDE61F61DA893B00038EF29 /* Main.storyboard */,
+				DCDE61F91DA893B00038EF29 /* Assets.xcassets */,
+				DCDE61FB1DA893B00038EF29 /* LaunchScreen.storyboard */,
+				DCDE61FE1DA893B00038EF29 /* Info.plist */,
+				DCDE61ED1DA893B00038EF29 /* Supporting Files */,
+			);
+			path = "GPUImageBeautify-Test";
+			sourceTree = "<group>";
+		};
+		DCDE61ED1DA893B00038EF29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE61EE1DA893B00038EF29 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCDE61E91DA893B00038EF29 /* GPUImageBeautify(依赖工程) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDE62011DA893B00038EF29 /* Build configuration list for PBXNativeTarget "GPUImageBeautify(依赖工程)" */;
+			buildPhases = (
+				489238C2C24FA7904DF484C8 /* [CP] Check Pods Manifest.lock */,
+				DCDE61E61DA893B00038EF29 /* Sources */,
+				DCDE61E71DA893B00038EF29 /* Frameworks */,
+				DCDE61E81DA893B00038EF29 /* Resources */,
+				0792C1B1060FC398382F4C5E /* [CP] Embed Pods Frameworks */,
+				CDCAE5A1B121A57E03252AC7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPUImageBeautify(依赖工程)";
+			productName = "GPUImageBeautify-Test";
+			productReference = DCDE61EA1DA893B00038EF29 /* GPUImageBeautify(依赖工程).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCDE61E21DA893B00038EF29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FW;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = FunWay;
+				TargetAttributes = {
+					DCDE61E91DA893B00038EF29 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MY7AXS6WA4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DCDE61E51DA893B00038EF29 /* Build configuration list for PBXProject "GPUImageBeautify(依赖工程)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCDE61E11DA893B00038EF29;
+			productRefGroup = DCDE61EB1DA893B00038EF29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCDE61E91DA893B00038EF29 /* GPUImageBeautify(依赖工程) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCDE61E81DA893B00038EF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDE61FD1DA893B00038EF29 /* LaunchScreen.storyboard in Resources */,
+				DCDE61FA1DA893B00038EF29 /* Assets.xcassets in Resources */,
+				DCDE61F81DA893B00038EF29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0792C1B1060FC398382F4C5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImageBeautify-Test/Pods-GPUImageBeautify-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		489238C2C24FA7904DF484C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDCAE5A1B121A57E03252AC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImageBeautify-Test/Pods-GPUImageBeautify-Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCDE61E61DA893B00038EF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDE61F51DA893B00038EF29 /* FWViewController.m in Sources */,
+				DCDE61F21DA893B00038EF29 /* AppDelegate.m in Sources */,
+				DCDE61EF1DA893B00038EF29 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCDE61F61DA893B00038EF29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCDE61F71DA893B00038EF29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCDE61FB1DA893B00038EF29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCDE61FC1DA893B00038EF29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCDE61FF1DA893B00038EF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCDE62001DA893B00038EF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCDE62021DA893B00038EF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB1875ADC7427C68FDC761D2 /* Pods-GPUImageBeautify-Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MY7AXS6WA4;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"$(SRCROOT)/../GPUImageBeautify(静态库)/GPUImageBeautify\"",
+				);
+				INFOPLIST_FILE = "GPUImageBeautify-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FunWay.GPUImageBeautify-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCDE62031DA893B00038EF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72EEE7BC127E2C57F8778B72 /* Pods-GPUImageBeautify-Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MY7AXS6WA4;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"$(SRCROOT)/../GPUImageBeautify(静态库)/GPUImageBeautify\"",
+				);
+				INFOPLIST_FILE = "GPUImageBeautify-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FunWay.GPUImageBeautify-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCDE61E51DA893B00038EF29 /* Build configuration list for PBXProject "GPUImageBeautify(依赖工程)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDE61FF1DA893B00038EF29 /* Debug */,
+				DCDE62001DA893B00038EF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCDE62011DA893B00038EF29 /* Build configuration list for PBXNativeTarget "GPUImageBeautify(依赖工程)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDE62021DA893B00038EF29 /* Debug */,
+				DCDE62031DA893B00038EF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCDE61E21DA893B00038EF29 /* Project object */;
+}
