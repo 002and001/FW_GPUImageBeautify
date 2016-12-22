@@ -378,7 +378,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FunWay.GPUImageBeautify(依赖工程)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FunWay.GPUImageBeautify-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -402,7 +402,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FunWay.GPUImageBeautify(依赖工程)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FunWay.GPUImageBeautify-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
