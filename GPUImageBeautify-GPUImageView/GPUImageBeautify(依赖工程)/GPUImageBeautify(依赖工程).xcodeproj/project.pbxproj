@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09C624EFF9BC7078CCEF4202 /* libPods-GPUImageBeautify-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B38E7856AC11B21DD251D4C7 /* libPods-GPUImageBeautify-Test.a */; };
+		85FD830C54E0C93942169FC4 /* libPods-GPUImageBeautify(依赖工程).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 288D05679244F0D17CB62B47 /* libPods-GPUImageBeautify(依赖工程).a */; };
 		DCDE61EF1DA893B00038EF29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDE61EE1DA893B00038EF29 /* main.m */; };
 		DCDE61F21DA893B00038EF29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDE61F11DA893B00038EF29 /* AppDelegate.m */; };
 		DCDE61F51DA893B00038EF29 /* FWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDE61F41DA893B00038EF29 /* FWViewController.m */; };
@@ -18,7 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		288D05679244F0D17CB62B47 /* libPods-GPUImageBeautify(依赖工程).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUImageBeautify(依赖工程).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5989B8935249A422719EC16C /* Pods-GPUImageBeautify(依赖工程).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageBeautify(依赖工程).release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageBeautify(依赖工程)/Pods-GPUImageBeautify(依赖工程).release.xcconfig"; sourceTree = "<group>"; };
 		72EEE7BC127E2C57F8778B72 /* Pods-GPUImageBeautify-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageBeautify-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageBeautify-Test/Pods-GPUImageBeautify-Test.release.xcconfig"; sourceTree = "<group>"; };
+		8E87F600F4D6DFC21F116DCB /* Pods-GPUImageBeautify(依赖工程).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageBeautify(依赖工程).debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageBeautify(依赖工程)/Pods-GPUImageBeautify(依赖工程).debug.xcconfig"; sourceTree = "<group>"; };
 		B38E7856AC11B21DD251D4C7 /* libPods-GPUImageBeautify-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUImageBeautify-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDE61EA1DA893B00038EF29 /* GPUImageBeautify(依赖工程).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPUImageBeautify(依赖工程).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDE61EE1DA893B00038EF29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,7 +45,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCF2A89A1E0BE469006DDB4E /* libGPUImageBeautify(静态库).a in Frameworks */,
-				09C624EFF9BC7078CCEF4202 /* libPods-GPUImageBeautify-Test.a in Frameworks */,
+				85FD830C54E0C93942169FC4 /* libPods-GPUImageBeautify(依赖工程).a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +59,7 @@
 				DCF2A8971E0BE08C006DDB4E /* libGPUImageBeautify.a */,
 				DCF2A8821E0BD25D006DDB4E /* libGPUImageBeautify.a */,
 				B38E7856AC11B21DD251D4C7 /* libPods-GPUImageBeautify-Test.a */,
+				288D05679244F0D17CB62B47 /* libPods-GPUImageBeautify(依赖工程).a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -65,6 +69,8 @@
 			children = (
 				FB1875ADC7427C68FDC761D2 /* Pods-GPUImageBeautify-Test.debug.xcconfig */,
 				72EEE7BC127E2C57F8778B72 /* Pods-GPUImageBeautify-Test.release.xcconfig */,
+				8E87F600F4D6DFC21F116DCB /* Pods-GPUImageBeautify(依赖工程).debug.xcconfig */,
+				5989B8935249A422719EC16C /* Pods-GPUImageBeautify(依赖工程).release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -195,7 +201,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImageBeautify-Test/Pods-GPUImageBeautify-Test-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImageBeautify(依赖工程)/Pods-GPUImageBeautify(依赖工程)-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		489238C2C24FA7904DF484C8 /* [CP] Check Pods Manifest.lock */ = {
@@ -225,7 +231,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImageBeautify-Test/Pods-GPUImageBeautify-Test-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImageBeautify(依赖工程)/Pods-GPUImageBeautify(依赖工程)-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -355,7 +361,7 @@
 		};
 		DCDE62021DA893B00038EF29 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB1875ADC7427C68FDC761D2 /* Pods-GPUImageBeautify-Test.debug.xcconfig */;
+			baseConfigurationReference = 8E87F600F4D6DFC21F116DCB /* Pods-GPUImageBeautify(依赖工程).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MY7AXS6WA4;
@@ -366,20 +372,20 @@
 					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
 					"\"$(SRCROOT)/../GPUImageBeautify(静态库)/GPUImageBeautify\"",
 				);
-				INFOPLIST_FILE = "GPUImageBeautify-Test/Info.plist";
+				INFOPLIST_FILE = "GPUImageBeautify-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FunWay.GPUImageBeautify-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FunWay.GPUImageBeautify(依赖工程)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		DCDE62031DA893B00038EF29 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72EEE7BC127E2C57F8778B72 /* Pods-GPUImageBeautify-Test.release.xcconfig */;
+			baseConfigurationReference = 5989B8935249A422719EC16C /* Pods-GPUImageBeautify(依赖工程).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MY7AXS6WA4;
@@ -390,13 +396,13 @@
 					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
 					"\"$(SRCROOT)/../GPUImageBeautify(静态库)/GPUImageBeautify\"",
 				);
-				INFOPLIST_FILE = "GPUImageBeautify-Test/Info.plist";
+				INFOPLIST_FILE = "GPUImageBeautify-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FunWay.GPUImageBeautify-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FunWay.GPUImageBeautify(依赖工程)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

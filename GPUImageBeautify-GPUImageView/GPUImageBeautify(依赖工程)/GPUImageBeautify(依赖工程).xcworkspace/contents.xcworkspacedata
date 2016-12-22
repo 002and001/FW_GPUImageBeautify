@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/sunniwell/Desktop/GPUImageBeautify-GPUImageView/GPUImageBeautify(&#x4f9d;&#x8d56;&#x5de5;&#x7a0b;)/GPUImageBeautify(&#x4f9d;&#x8d56;&#x5de5;&#x7a0b;).xcodeproj">
+      location = "group:GPUImageBeautify(&#x4f9d;&#x8d56;&#x5de5;&#x7a0b;).xcodeproj">
    </FileRef>
    <FileRef
       location = "group:../GPUImageBeautify(&#x9759;&#x6001;&#x5e93;)/GPUImageBeautify(&#x9759;&#x6001;&#x5e93;).xcodeproj">
