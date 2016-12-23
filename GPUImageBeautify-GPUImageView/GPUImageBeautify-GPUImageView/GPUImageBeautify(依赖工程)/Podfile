@@ -1,7 +1,0 @@
-platform:ios,'8.0'
-target 'GPUImageBeautify(依赖工程)’ do 
-pod 'GPUImage'
-pod 'Masonry'
-end
-
-

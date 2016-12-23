@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		85FD830C54E0C93942169FC4 /* libPods-GPUImageBeautify(依赖工程).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 288D05679244F0D17CB62B47 /* libPods-GPUImageBeautify(依赖工程).a */; };
+		DCA675431E0CFB920035FC90 /* libGPUImageBeautify(静态库).a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA675421E0CFB920035FC90 /* libGPUImageBeautify(静态库).a */; };
 		DCDE61EF1DA893B00038EF29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDE61EE1DA893B00038EF29 /* main.m */; };
 		DCDE61F21DA893B00038EF29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDE61F11DA893B00038EF29 /* AppDelegate.m */; };
 		DCDE61F51DA893B00038EF29 /* FWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDE61F41DA893B00038EF29 /* FWViewController.m */; };
 		DCDE61F81DA893B00038EF29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDE61F61DA893B00038EF29 /* Main.storyboard */; };
 		DCDE61FA1DA893B00038EF29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDE61F91DA893B00038EF29 /* Assets.xcassets */; };
 		DCDE61FD1DA893B00038EF29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDE61FB1DA893B00038EF29 /* LaunchScreen.storyboard */; };
-		DCF2A89A1E0BE469006DDB4E /* libGPUImageBeautify(静态库).a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF2A8991E0BE469006DDB4E /* libGPUImageBeautify(静态库).a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +23,7 @@
 		72EEE7BC127E2C57F8778B72 /* Pods-GPUImageBeautify-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageBeautify-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageBeautify-Test/Pods-GPUImageBeautify-Test.release.xcconfig"; sourceTree = "<group>"; };
 		8E87F600F4D6DFC21F116DCB /* Pods-GPUImageBeautify(依赖工程).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageBeautify(依赖工程).debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageBeautify(依赖工程)/Pods-GPUImageBeautify(依赖工程).debug.xcconfig"; sourceTree = "<group>"; };
 		B38E7856AC11B21DD251D4C7 /* libPods-GPUImageBeautify-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUImageBeautify-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA675421E0CFB920035FC90 /* libGPUImageBeautify(静态库).a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libGPUImageBeautify(静态库).a"; path = "../GPUImageBeautify(静态库)/build/Debug-iphoneos/libGPUImageBeautify(静态库).a"; sourceTree = "<group>"; };
 		DCDE61EA1DA893B00038EF29 /* GPUImageBeautify(依赖工程).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPUImageBeautify(依赖工程).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDE61EE1DA893B00038EF29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCDE61F01DA893B00038EF29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCF2A89A1E0BE469006DDB4E /* libGPUImageBeautify(静态库).a in Frameworks */,
+				DCA675431E0CFB920035FC90 /* libGPUImageBeautify(静态库).a in Frameworks */,
 				85FD830C54E0C93942169FC4 /* libPods-GPUImageBeautify(依赖工程).a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,6 +56,7 @@
 		21E20FAACDDB066EC5885E1B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DCA675421E0CFB920035FC90 /* libGPUImageBeautify(静态库).a */,
 				DCF2A8991E0BE469006DDB4E /* libGPUImageBeautify(静态库).a */,
 				DCF2A8971E0BE08C006DDB4E /* libGPUImageBeautify.a */,
 				DCF2A8821E0BD25D006DDB4E /* libGPUImageBeautify.a */,
