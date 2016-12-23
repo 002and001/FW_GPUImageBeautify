@@ -1,0 +1,15 @@
+PODS:
+  - GPUImage (0.1.7)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - GPUImage
+  - Masonry
+
+SPEC CHECKSUMS:
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: a5faa940703dddba9ae901197ae1a84827c1ad35
+
+COCOAPODS: 1.1.1

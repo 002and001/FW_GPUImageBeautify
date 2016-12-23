@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D65AF14D0E041AFE2BAEE897 /* libPods-GPUImageBeautify(依赖工程)--Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB764DD4418F0A2B8BCB8C9 /* libPods-GPUImageBeautify(依赖工程)--Swift.a */; };
+		DCE993801E0CAFBA00169E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE9937F1E0CAFBA00169E4D /* AppDelegate.swift */; };
+		DCE993821E0CAFBA00169E4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE993811E0CAFBA00169E4D /* ViewController.swift */; };
+		DCE993851E0CAFBA00169E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE993831E0CAFBA00169E4D /* Main.storyboard */; };
+		DCE993871E0CAFBA00169E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE993861E0CAFBA00169E4D /* Assets.xcassets */; };
+		DCE9938A1E0CAFBA00169E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE993881E0CAFBA00169E4D /* LaunchScreen.storyboard */; };
+		DCE993931E0CBA2400169E4D /* libGPUImageBeautify(静态库).a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE993921E0CBA2400169E4D /* libGPUImageBeautify(静态库).a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7EC74E79F3CC3071DB1C5056 /* Pods-GPUImageBeautify(依赖工程)--Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageBeautify(依赖工程)--Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageBeautify(依赖工程)--Swift/Pods-GPUImageBeautify(依赖工程)--Swift.release.xcconfig"; sourceTree = "<group>"; };
+		AEB764DD4418F0A2B8BCB8C9 /* libPods-GPUImageBeautify(依赖工程)--Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUImageBeautify(依赖工程)--Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76EAACC26629C3040D4A7FF /* Pods-GPUImageBeautify(依赖工程)--Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageBeautify(依赖工程)--Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageBeautify(依赖工程)--Swift/Pods-GPUImageBeautify(依赖工程)--Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		DCE9937C1E0CAFBA00169E4D /* GPUImageBeautify(依赖工程)--Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPUImageBeautify(依赖工程)--Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE9937F1E0CAFBA00169E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCE993811E0CAFBA00169E4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCE993841E0CAFBA00169E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCE993861E0CAFBA00169E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCE993891E0CAFBA00169E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCE9938B1E0CAFBA00169E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE993921E0CBA2400169E4D /* libGPUImageBeautify(静态库).a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libGPUImageBeautify(静态库).a"; path = "../GPUImageBeautify(静态库)/build/Debug-iphoneos/libGPUImageBeautify(静态库).a"; sourceTree = "<group>"; };
+		DCE993941E0CC4E700169E4D /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCE993791E0CAFBA00169E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE993931E0CBA2400169E4D /* libGPUImageBeautify(静态库).a in Frameworks */,
+				D65AF14D0E041AFE2BAEE897 /* libPods-GPUImageBeautify(依赖工程)--Swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5726A705471B6E2A43E53957 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D76EAACC26629C3040D4A7FF /* Pods-GPUImageBeautify(依赖工程)--Swift.debug.xcconfig */,
+				7EC74E79F3CC3071DB1C5056 /* Pods-GPUImageBeautify(依赖工程)--Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCE993731E0CAFBA00169E4D = {
+			isa = PBXGroup;
+			children = (
+				DCE9937E1E0CAFBA00169E4D /* GPUImageBeautify(依赖工程)--Swift */,
+				DCE9937D1E0CAFBA00169E4D /* Products */,
+				5726A705471B6E2A43E53957 /* Pods */,
+				E7ACE818CC5DF432B07485ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCE9937D1E0CAFBA00169E4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE9937C1E0CAFBA00169E4D /* GPUImageBeautify(依赖工程)--Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE9937E1E0CAFBA00169E4D /* GPUImageBeautify(依赖工程)--Swift */ = {
+			isa = PBXGroup;
+			children = (
+				DCE9937F1E0CAFBA00169E4D /* AppDelegate.swift */,
+				DCE993811E0CAFBA00169E4D /* ViewController.swift */,
+				DCE993831E0CAFBA00169E4D /* Main.storyboard */,
+				DCE993861E0CAFBA00169E4D /* Assets.xcassets */,
+				DCE993881E0CAFBA00169E4D /* LaunchScreen.storyboard */,
+				DCE9938B1E0CAFBA00169E4D /* Info.plist */,
+				DCE993941E0CC4E700169E4D /* Bridging-Header.h */,
+			);
+			path = "GPUImageBeautify(依赖工程)--Swift";
+			sourceTree = "<group>";
+		};
+		E7ACE818CC5DF432B07485ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCE993921E0CBA2400169E4D /* libGPUImageBeautify(静态库).a */,
+				AEB764DD4418F0A2B8BCB8C9 /* libPods-GPUImageBeautify(依赖工程)--Swift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCE9937B1E0CAFBA00169E4D /* GPUImageBeautify(依赖工程)--Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE9938E1E0CAFBA00169E4D /* Build configuration list for PBXNativeTarget "GPUImageBeautify(依赖工程)--Swift" */;
+			buildPhases = (
+				E94A534349673235AF31B33B /* [CP] Check Pods Manifest.lock */,
+				DCE993781E0CAFBA00169E4D /* Sources */,
+				DCE993791E0CAFBA00169E4D /* Frameworks */,
+				DCE9937A1E0CAFBA00169E4D /* Resources */,
+				EE4F89D0A4AE6A16E08266DB /* [CP] Embed Pods Frameworks */,
+				F9F60D6B3A6FA4E62A1CB03A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPUImageBeautify(依赖工程)--Swift";
+			productName = "GPUImageBeautify(依赖工程)--Swift";
+			productReference = DCE9937C1E0CAFBA00169E4D /* GPUImageBeautify(依赖工程)--Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCE993741E0CAFBA00169E4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = FunWay;
+				TargetAttributes = {
+					DCE9937B1E0CAFBA00169E4D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = MY7AXS6WA4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DCE993771E0CAFBA00169E4D /* Build configuration list for PBXProject "GPUImageBeautify(依赖工程)--Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCE993731E0CAFBA00169E4D;
+			productRefGroup = DCE9937D1E0CAFBA00169E4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCE9937B1E0CAFBA00169E4D /* GPUImageBeautify(依赖工程)--Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCE9937A1E0CAFBA00169E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE9938A1E0CAFBA00169E4D /* LaunchScreen.storyboard in Resources */,
+				DCE993871E0CAFBA00169E4D /* Assets.xcassets in Resources */,
+				DCE993851E0CAFBA00169E4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E94A534349673235AF31B33B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE4F89D0A4AE6A16E08266DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImageBeautify(依赖工程)--Swift/Pods-GPUImageBeautify(依赖工程)--Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9F60D6B3A6FA4E62A1CB03A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImageBeautify(依赖工程)--Swift/Pods-GPUImageBeautify(依赖工程)--Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCE993781E0CAFBA00169E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE993821E0CAFBA00169E4D /* ViewController.swift in Sources */,
+				DCE993801E0CAFBA00169E4D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCE993831E0CAFBA00169E4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE993841E0CAFBA00169E4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCE993881E0CAFBA00169E4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE993891E0CAFBA00169E4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCE9938C1E0CAFBA00169E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCE9938D1E0CAFBA00169E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCE9938F1E0CAFBA00169E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D76EAACC26629C3040D4A7FF /* Pods-GPUImageBeautify(依赖工程)--Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MY7AXS6WA4;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"$(SRCROOT)/../GPUImageBeautify(静态库)/GPUImageBeautify\"",
+				);
+				INFOPLIST_FILE = "GPUImageBeautify(依赖工程)--Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FunWay.GPUImageBeautify--------Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/sunniwell/Desktop/GPUImageBeautify-GPUImageView/GPUImageBeautify(依赖工程)--Swift/GPUImageBeautify(依赖工程)--Swift/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DCE993901E0CAFBA00169E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EC74E79F3CC3071DB1C5056 /* Pods-GPUImageBeautify(依赖工程)--Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MY7AXS6WA4;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"$(SRCROOT)/../GPUImageBeautify(静态库)/GPUImageBeautify\"",
+				);
+				INFOPLIST_FILE = "GPUImageBeautify(依赖工程)--Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FunWay.GPUImageBeautify--------Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/sunniwell/Desktop/GPUImageBeautify-GPUImageView/GPUImageBeautify(依赖工程)--Swift/GPUImageBeautify(依赖工程)--Swift/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCE993771E0CAFBA00169E4D /* Build configuration list for PBXProject "GPUImageBeautify(依赖工程)--Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE9938C1E0CAFBA00169E4D /* Debug */,
+				DCE9938D1E0CAFBA00169E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE9938E1E0CAFBA00169E4D /* Build configuration list for PBXNativeTarget "GPUImageBeautify(依赖工程)--Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE9938F1E0CAFBA00169E4D /* Debug */,
+				DCE993901E0CAFBA00169E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCE993741E0CAFBA00169E4D /* Project object */;
+}

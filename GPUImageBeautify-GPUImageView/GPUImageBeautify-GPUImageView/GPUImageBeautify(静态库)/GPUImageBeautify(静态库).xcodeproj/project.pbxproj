@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCBDB2191D98C91D0076283A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBDB2181D98C91D0076283A /* UIKit.framework */; };
+		DCDE620A1DA894B00038EF29 /* FWBeautifyCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDE62041DA894B00038EF29 /* FWBeautifyCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDE620B1DA894B00038EF29 /* FWBeautifyCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDE62051DA894B00038EF29 /* FWBeautifyCamera.m */; };
+		DCDE620C1DA894B00038EF29 /* FWGPUImageBeautifyFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDE62061DA894B00038EF29 /* FWGPUImageBeautifyFilter.h */; };
+		DCDE620D1DA894B00038EF29 /* FWGPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDE62071DA894B00038EF29 /* FWGPUImageBeautifyFilter.m */; };
+		DCDE620E1DA894B00038EF29 /* FWGPUImageCombinationFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDE62081DA894B00038EF29 /* FWGPUImageCombinationFilter.h */; };
+		DCDE620F1DA894B00038EF29 /* FWGPUImageCombinationFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDE62091DA894B00038EF29 /* FWGPUImageCombinationFilter.m */; };
+		DCEBC6D51D9C1AD800C82F3E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEBC6D41D9C1AD800C82F3E /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC1B25951D98C3080024AD67 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DC1B25971D98C3080024AD67 /* libGPUImageBeautify(静态库).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libGPUImageBeautify(静态库).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBDB2181D98C91D0076283A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCDE62041DA894B00038EF29 /* FWBeautifyCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWBeautifyCamera.h; sourceTree = "<group>"; };
+		DCDE62051DA894B00038EF29 /* FWBeautifyCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWBeautifyCamera.m; sourceTree = "<group>"; };
+		DCDE62061DA894B00038EF29 /* FWGPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWGPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		DCDE62071DA894B00038EF29 /* FWGPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWGPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		DCDE62081DA894B00038EF29 /* FWGPUImageCombinationFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWGPUImageCombinationFilter.h; sourceTree = "<group>"; };
+		DCDE62091DA894B00038EF29 /* FWGPUImageCombinationFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWGPUImageCombinationFilter.m; sourceTree = "<group>"; };
+		DCEBC6D41D9C1AD800C82F3E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DCF2A8901E0BD990006DDB4E /* libGPUImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGPUImage.a; path = "../../../../Library/Developer/Xcode/DerivedData/GPUImageBeautify-Test-ekncliaiwcneoddduxemkuxhdljc/Build/Products/Debug-iphonesimulator/GPUImage/libGPUImage.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC1B25941D98C3080024AD67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEBC6D51D9C1AD800C82F3E /* AVFoundation.framework in Frameworks */,
+				DCBDB2191D98C91D0076283A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC1B258E1D98C3080024AD67 = {
+			isa = PBXGroup;
+			children = (
+				DC1B25991D98C3080024AD67 /* GPUImageBeautify */,
+				DC1B25981D98C3080024AD67 /* Products */,
+				DCBDB2151D98C9140076283A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC1B25981D98C3080024AD67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC1B25971D98C3080024AD67 /* libGPUImageBeautify(静态库).a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC1B25991D98C3080024AD67 /* GPUImageBeautify */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE62041DA894B00038EF29 /* FWBeautifyCamera.h */,
+				DCDE62051DA894B00038EF29 /* FWBeautifyCamera.m */,
+				DCDE62061DA894B00038EF29 /* FWGPUImageBeautifyFilter.h */,
+				DCDE62071DA894B00038EF29 /* FWGPUImageBeautifyFilter.m */,
+				DCDE62081DA894B00038EF29 /* FWGPUImageCombinationFilter.h */,
+				DCDE62091DA894B00038EF29 /* FWGPUImageCombinationFilter.m */,
+			);
+			path = GPUImageBeautify;
+			sourceTree = "<group>";
+		};
+		DCBDB2151D98C9140076283A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCF2A8901E0BD990006DDB4E /* libGPUImage.a */,
+				DCEBC6D41D9C1AD800C82F3E /* AVFoundation.framework */,
+				DCBDB2181D98C91D0076283A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DC1B25A31D98C35D0024AD67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDE620E1DA894B00038EF29 /* FWGPUImageCombinationFilter.h in Headers */,
+				DCDE620C1DA894B00038EF29 /* FWGPUImageBeautifyFilter.h in Headers */,
+				DCDE620A1DA894B00038EF29 /* FWBeautifyCamera.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DC1B25961D98C3080024AD67 /* GPUImageBeautify(静态库) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1B25A01D98C3080024AD67 /* Build configuration list for PBXNativeTarget "GPUImageBeautify(静态库)" */;
+			buildPhases = (
+				DC1B25931D98C3080024AD67 /* Sources */,
+				DC1B25941D98C3080024AD67 /* Frameworks */,
+				DC1B25951D98C3080024AD67 /* CopyFiles */,
+				DC1B25A31D98C35D0024AD67 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPUImageBeautify(静态库)";
+			productName = GPUImageBeautify;
+			productReference = DC1B25971D98C3080024AD67 /* libGPUImageBeautify(静态库).a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC1B258F1D98C3080024AD67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = FunWay;
+				TargetAttributes = {
+					DC1B25961D98C3080024AD67 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MY7AXS6WA4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC1B25921D98C3080024AD67 /* Build configuration list for PBXProject "GPUImageBeautify(静态库)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC1B258E1D98C3080024AD67;
+			productRefGroup = DC1B25981D98C3080024AD67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC1B25961D98C3080024AD67 /* GPUImageBeautify(静态库) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC1B25931D98C3080024AD67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDE620D1DA894B00038EF29 /* FWGPUImageBeautifyFilter.m in Sources */,
+				DCDE620F1DA894B00038EF29 /* FWGPUImageCombinationFilter.m in Sources */,
+				DCDE620B1DA894B00038EF29 /* FWBeautifyCamera.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DC1B259E1D98C3080024AD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC1B259F1D98C3080024AD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC1B25A11D98C3080024AD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = MY7AXS6WA4;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"$(SRCROOT)/../GPUImageBeautify(依赖工程)/Pods/Headers/Public/GPUImage\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		DC1B25A21D98C3080024AD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = MY7AXS6WA4;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"$(SRCROOT)/../GPUImageBeautify(依赖工程)/Pods/Headers/Public/GPUImage\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC1B25921D98C3080024AD67 /* Build configuration list for PBXProject "GPUImageBeautify(静态库)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1B259E1D98C3080024AD67 /* Debug */,
+				DC1B259F1D98C3080024AD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1B25A01D98C3080024AD67 /* Build configuration list for PBXNativeTarget "GPUImageBeautify(静态库)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1B25A11D98C3080024AD67 /* Debug */,
+				DC1B25A21D98C3080024AD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC1B258F1D98C3080024AD67 /* Project object */;
+}

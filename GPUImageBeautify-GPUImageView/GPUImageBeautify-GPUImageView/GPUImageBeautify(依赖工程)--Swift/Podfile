@@ -1,0 +1,6 @@
+target 'GPUImageBeautify(依赖工程)--Swift' do
+
+pod 'Masonry'
+pod 'GPUImage'
+
+end
