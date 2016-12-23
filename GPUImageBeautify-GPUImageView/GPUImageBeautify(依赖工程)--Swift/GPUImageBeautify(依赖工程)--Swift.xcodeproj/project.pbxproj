@@ -353,7 +353,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FunWay.GPUImageBeautify--------Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/sunniwell/Desktop/GPUImageBeautify-GPUImageView/GPUImageBeautify(依赖工程)--Swift/GPUImageBeautify(依赖工程)--Swift/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/GPUImageBeautify(依赖工程)--Swift/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -375,7 +375,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FunWay.GPUImageBeautify--------Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/sunniwell/Desktop/GPUImageBeautify-GPUImageView/GPUImageBeautify(依赖工程)--Swift/GPUImageBeautify(依赖工程)--Swift/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/GPUImageBeautify(依赖工程)--Swift/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
