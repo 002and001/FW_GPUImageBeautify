@@ -100,10 +100,12 @@ GPUImageBilateralFilter     |      GPUImageCannyEdgeDetectionFilter
 }
 
 - (void)setBrightness:(float)brightness {
+    [hsbFilter reset];
     [hsbFilter adjustBrightness:brightness];
 }
 
 - (void)setSaturation:(float)saturation {
+    [hsbFilter reset];
     [hsbFilter adjustSaturation:saturation];
 }
 

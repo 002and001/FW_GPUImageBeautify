@@ -11,9 +11,10 @@
 
 #import <Masonry.h>
 
-@interface FWViewController ()<FWBeautifyCameraDelegate> {
-    UILabel *_intensityLabel;
-}
+@interface FWViewController () <FWBeautifyCameraDelegate>
+
+@property (nonatomic, strong) UILabel *intensityLabel;
+@property (nonatomic, strong) UILabel *brightnessLabel;
 @property (nonatomic, strong) FWBeautifyCamera *beautifyCamera;
 @end
 
@@ -88,17 +89,42 @@
         make.leading.equalTo(self.view).offset(16);
         make.trailing.equalTo(self.view).offset(-16);
     }];
-    
-    _intensityLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 36)];
-    _intensityLabel.textColor = [UIColor darkGrayColor];
-    _intensityLabel.font = [UIFont boldSystemFontOfSize:24];
-    _intensityLabel.text = @"0.50";
-    _intensityLabel.textAlignment = NSTextAlignmentCenter;
-    [self.view addSubview:_intensityLabel];
+    // 磨皮指数
+    self.intensityLabel = [[UILabel alloc] initWithFrame:CGRectZero];
+    self.intensityLabel.textColor = [UIColor darkGrayColor];
+    self.intensityLabel.font = [UIFont boldSystemFontOfSize:24];
+    self.intensityLabel.text = @"磨皮：0.50";
+    self.intensityLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:self.intensityLabel];
     [_intensityLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.equalTo(intensitySlider).offset(-32);
         make.centerX.equalTo(intensitySlider);
-        make.width.equalTo(@64);
+        make.width.equalTo(@([UIScreen mainScreen].bounds.size.width));
+        make.height.equalTo(@32);
+    }];
+    
+    // 调节 brightness 的滑块，即亮度（PS：目前饱和度和亮度只能选择调节一个)
+    UISlider *brightnessSlider = [[UISlider alloc] initWithFrame:self.view.frame];
+    brightnessSlider.maximumValue = 2.0;
+    brightnessSlider.minimumValue = 0.0;
+    brightnessSlider.value = 1.0;
+    [brightnessSlider addTarget:self action:@selector(brightnessValueChange:) forControlEvents:UIControlEventValueChanged];
+    [self.view addSubview:brightnessSlider];
+    [brightnessSlider mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(self.intensityLabel).offset(-32);
+        make.leading.equalTo(self.view).offset(16);
+        make.trailing.equalTo(self.view).offset(-16);
+    }];
+    self.brightnessLabel = [[UILabel alloc] initWithFrame:CGRectZero];
+    self.brightnessLabel.textColor = [UIColor darkGrayColor];
+    self.brightnessLabel.font = [UIFont boldSystemFontOfSize:24];
+    self.brightnessLabel.text = @"亮度：1.00";
+    self.brightnessLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:self.brightnessLabel];
+    [self.brightnessLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(brightnessSlider).offset(-32);
+        make.centerX.equalTo(brightnessSlider);
+        make.width.equalTo(@([UIScreen mainScreen].bounds.size.width));
         make.height.equalTo(@32);
     }];
     
@@ -137,9 +163,15 @@
 }
 
 #pragma mark 调整磨皮效果(intensity)
-- (void)intensityValueChange:(UISlider *)uiSlider {
-    self.beautifyCamera.intensity = uiSlider.value;
-    _intensityLabel.text = [NSString stringWithFormat:@"%.2f", uiSlider.value];
+- (void)intensityValueChange:(UISlider *)sender {
+    self.beautifyCamera.intensity = sender.value;
+    self.intensityLabel.text = [NSString stringWithFormat:@"磨皮：%.2f", sender.value];
+}
+
+#pragma mark 调整亮度(brightness)
+- (void)brightnessValueChange:(UISlider *)sender {
+    self.beautifyCamera.brightness = sender.value;
+    self.brightnessLabel.text = [NSString stringWithFormat:@"亮度：%.2f", sender.value];
 }
 
 #pragma mark 开关直播
