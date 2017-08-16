@@ -31,7 +31,7 @@
         
         self.filterView = [[GPUImageView alloc] initWithFrame:cameraView.frame];
         self.filterView.fillMode = kGPUImageFillModePreserveAspectRatioAndFill;
-        self.filterView.center = cameraView.center;
+        self.filterView.center = CGPointMake(CGRectGetWidth(cameraView.frame) / 2, CGRectGetHeight(cameraView.frame) / 2);
         [cameraView addSubview:self.filterView];
         
         self.videoCamera = [[GPUImageVideoCamera alloc] initWithSessionPreset:sessionPreset cameraPosition:cameraPositoin];

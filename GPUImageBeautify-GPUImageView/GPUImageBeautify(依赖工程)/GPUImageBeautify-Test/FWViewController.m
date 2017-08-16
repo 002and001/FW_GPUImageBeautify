@@ -189,7 +189,6 @@
     NSLog(@"Pixel Buffer Size : %zu - %zu", CVPixelBufferGetWidth(pixelBuffer), CVPixelBufferGetHeight(pixelBuffer));
     
     // 将 pixelBuffer 用于编码或推流
-    /*
      // 示例代码
      OSType formatType = CVPixelBufferGetPixelFormatType(pixelBuffer);
      UIImage *uiImage;
@@ -204,10 +203,8 @@
      CGImageRelease(videoImage);
      
      [self performSelectorOnMainThread:@selector(updatePreview:) withObject:uiImage waitUntilDone:NO];
-     */
 }
 
-/*
 - (void)updatePreview:(UIImage *)uiImage {
     UIImageView *previewView = [[UIImageView alloc] initWithFrame:CGRectMake(30, 60, 160, 200)];
     previewView.contentMode = UIViewContentModeScaleAspectFit;
@@ -216,6 +213,5 @@
     
     [previewView setNeedsDisplay];
 }
- */
 
 @end
